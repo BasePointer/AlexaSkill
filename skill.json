@@ -1,0 +1,51 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:382203760983:function:cd6d9c01-c312-45f0-8561-9ee1bcf1d0ed:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:382203760983:function:cd6d9c01-c312-45f0-8561-9ee1bcf1d0ed:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:382203760983:function:cd6d9c01-c312-45f0-8561-9ee1bcf1d0ed:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:382203760983:function:cd6d9c01-c312-45f0-8561-9ee1bcf1d0ed:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "locales": {
+        "de-DE": {}
+      }
+    },
+    "publishingInformation": {
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "de-DE": {
+          "examplePhrases": [],
+          "keywords": [],
+          "name": "Do not Disturb System"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}

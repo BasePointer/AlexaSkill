@@ -1,0 +1,69 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "status manager",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "SetBusyIntent",
+          "slots": [],
+          "samples": [
+            "ich bin Beschäftigt",
+            "ich hab keine Zeit",
+            "setze meinen Status auf Beschäftigt"
+          ]
+        },
+        {
+          "name": "SetAvailableIntent",
+          "slots": [],
+          "samples": [
+            "setze meinen status auf verfügbar",
+            "ich bin wieder verfügbar",
+            "ich bin verfügbar",
+            "ich bin nicht mehr beschäftigt",
+            "ich hab wieder zeit"
+          ]
+        },
+        {
+          "name": "GetStatusIntent",
+          "slots": [],
+          "samples": [
+            "bin ich beschäftigt",
+            "bin ich verfügbar",
+            "was ist mein aktueller status"
+          ]
+        },
+        {
+          "name": "GetLinkingCodeIntent",
+          "slots": [],
+          "samples": [
+            "ich möchte dich verbinden",
+            "generiere mir einen code",
+            "verbinde mein Gerät"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "14"
+}
